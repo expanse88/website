@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Your Profession | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="#home">Your Name</a></h1>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="images/your-profile-pic.jpg" alt="Your Name" class="profile-pic">
+                <h2>Hello, I'm <span class="highlight">Your Name</span></h2>
+                <p class="tagline">A [Your Profession/Specialty] passionate about [Your Passion].</p>
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h3>About Me</h3>
+            <p>
+                Write a compelling story about yourself here. Who are you? What's your professional journey?
+                What drives you? What are your core values? This is where you connect with your audience
+                on a personal level. Highlight your unique selling points and what makes you, you.
+            </p>
+            <p>
+                Mention your education, key experiences, and anything else relevant to your professional identity.
+                Keep it concise but impactful.
+            </p>
+            <a href="your-resume.pdf" target="_blank" class="btn btn-download">Download CV <i class="fas fa-download"></i></a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h3>My Portfolio</h3>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="Project 1 Title">
+                    <div class="item-info">
+                        <h4>Project 1 Title</h4>
+                        <p>A brief description of Project 1, highlighting your role and the technologies used. Focus on impact and results.</p>
+                        <a href="#" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project2.jpg" alt="Project 2 Title">
+                    <div class="item-info">
+                        <h4>Project 2 Title</h4>
+                        <p>A brief description of Project 2. What problem did it solve? What was your contribution?</p>
+                        <a href="#" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project3.jpg" alt="Project 3 Title">
+                    <div class="item-info">
+                        <h4>Project 3 Title</h4>
+                        <p>Description of Project 3. Show off your versatility and range of skills.</p>
+                        <a href="#" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h3>My Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <h4>Web Development</h4>
+                    <p>HTML5, CSS3, JavaScript (React, Vue, Angular), Node.js, Python (Django, Flask), SQL, NoSQL</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h4>UI/UX Design</h4>
+                    <p>Figma, Adobe XD, Sketch, User Research, Wireframing, Prototyping, Usability Testing</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-bullhorn"></i>
+                    <h4>Digital Marketing</h4>
+                    <p>SEO, SEM, Social Media Marketing, Content Marketing, Email Marketing, Analytics</p>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h3>What People Say</h3>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <p>"[Your Name] is an absolute professional. Their dedication and creativity are truly exceptional. Highly recommended!"</p>
+                    <cite>- Client/Colleague Name, Title</cite>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Working with [Your Name] was a game-changer for our project. Their insights and execution were flawless."</p>
+                    <cite>- Client/Colleague Name, Title</cite>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h3>Get in Touch</h3>
+            <p>Got a vision or project you'd like to bring to life together? Feel free to reach out!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+                <!--<a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a> -->
+                <a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Harshit Nahata. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
